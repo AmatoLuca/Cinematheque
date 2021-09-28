@@ -18,4 +18,4 @@ and delete them to and from the database.
 • Heroku ( to deploy )
 
 
-(https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(https://dry-brook-16669.herokuapp.com/)
