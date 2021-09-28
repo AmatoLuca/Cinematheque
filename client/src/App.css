@@ -31,6 +31,7 @@ body {
   letter-spacing: 0.07rem;
   line-height: 1.4rem;
   color: #fff;
+  display: flex;
 }
 
 a {
@@ -43,14 +44,12 @@ a {
 .app-container {
   position: relative;
   max-width: 1500px;
-  /* min-height: 100%; */
   margin: 0 auto;
   background-color: var(--bg-ultra-dark-grey); 
 }
 
 
 /* LOGO */
-
 .logo {
   font-family: Codystar, Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
@@ -116,7 +115,26 @@ nav {
 
 @media (max-width: 600px) {
   .nav-bar {
-    width: 90vw;
+    width: 90vw; 
+  }
+  .nav-links > li:first-child {
+    display: none;
+  }
+
+  .nav-links > li:nth-child(2) {
+    margin-right: 1.2rem;
+  }
+
+  .nav-links > li:nth-child(3) {
+    margin-right: 0rem;
+  }
+
+  .logo {
+    margin-right: 2rem;
+  }
+
+  .logo-sub {
+    display: none;
   }
 }
 
@@ -372,7 +390,7 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: var(--purple-bright);
-  width: 100%;
+  width: 100vw;
   min-height: 20rem;
   color: var(--ultra-light-grey);
 }
@@ -403,6 +421,12 @@ nav {
 
 .footer-links a:hover {
   color: var(--ultra-light-grey);
+}
+
+@media (max-width: 400px) {
+  .footer-logo {
+    font-size: 1.8rem;
+  }
 }
 
 
@@ -658,6 +682,7 @@ nav {
   padding: 4rem 0;
   width: 100%;
   background-color: #b783fa;
+  height: 88vh;
 }
 
 .form-inner-case input[type='text'],
@@ -760,7 +785,7 @@ nav {
 .user-home-main {
   position: relative;
   color: var(--bg-ultra-dark-grey);
-  min-height: 30rem;
+  min-height: 100vh;
   background-image: url('./svg/scattered-forcefields.svg');
 }
 
