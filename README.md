@@ -14,8 +14,8 @@ and delete them to and from the database.
 • Mongodb <br />
 • Mongoose <br />
 • TMDB API <br />  
-• NPM
-• Heroku ( to deploy )
+• NPM <br />
+• Heroku ( to deploy ) <br />
 
 ### To see the project on-line: <br />
 (https://dry-brook-16669.herokuapp.com/)
