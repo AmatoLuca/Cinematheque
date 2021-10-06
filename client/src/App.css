@@ -390,7 +390,6 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: var(--purple-bright);
-  width: 100vw;
   min-height: 20rem;
   color: var(--ultra-light-grey);
 }
@@ -813,9 +812,12 @@ nav {
 }
 
 @media  (max-width: 600px) {
-  .user-hero__info-box,
-  .user-home__nav-links {
+  .user-hero__info-box {
     margin-left: 6rem;
+  }
+
+  .user-home__nav-links li {
+    transform: translateX(-6rem);
   }
 
   .user-home__standby-logo {
