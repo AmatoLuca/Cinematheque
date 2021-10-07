@@ -392,6 +392,7 @@ nav {
   background-color: var(--purple-bright);
   min-height: 20rem;
   color: var(--ultra-light-grey);
+  width: 100vw;
 }
 
 .footer-inner {
@@ -425,6 +426,12 @@ nav {
 @media (max-width: 400px) {
   .footer-logo {
     font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer {
+    width: 100%;
   }
 }
 
