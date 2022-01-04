@@ -1,6 +1,6 @@
 # Cinematheque movie db 
 
-Cinematheque is a MERN application for fetching movie through tmdb API. <br />
+Cinematheque is a MERN application to fetch movie through tmdb API. <br />
 You can search movie with the help of TMDB catalog. <br />
 You can also create your own profile and save you favorite movies and save  <br />
 and delete them to and from the database. 
