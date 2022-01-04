@@ -15,6 +15,7 @@ and delete them to and from the database.
 • Mongoose <br />
 • TMDB API <br />  
 • NPM <br />
+• JSON Web Token <br />
 • Heroku ( to deploy ) <br />
 
 ### To see the project on-line: <br />
